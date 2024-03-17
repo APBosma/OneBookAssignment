@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-color: #c6dc9f;
+	padding:none;
+	margin:none;
+	border-bottom: solid thick #5B762B;
+}
+
+
+nav {
+	text-align:center;
+	font-size: 22px;
+	background-color: #c6dc9f;
+}
+
+nav a:link, a:visited{
+	color:#002B47;
+	text-decoration:none;
+}
+
+nav a:hover{
+	text-decoration:underline;
+}
+
+#bookcover {
+	float:right;
+	margin: 5px 0px 37px 15px;
+	padding-left:20px;
+}
+
+#authorpic {
+	float:right;
+}
+
+h2 {
+	font-size:40px;
+	margin-bottom:0px;
+}
+
+p {
+	font-size:20px;
+}
+
+footer {
+	clear:both;
+	text-align:center;
+	background-color:#c6dc9f;
+	border-top: solid #5B762B;
+	padding-top:0px;
+	padding-bottom:3px;
+}
+
+footer p {
+	font-size:15px;
+	font-style:italic;
+}
+
+main ul li img {
+	float: left;
+	height: 70px;
+	width:auto;
+	margin-right:10px;
+}
+
+main ul {
+	list-style-type: none;
+	margin-right:80px;
+}
+
+#wrapper {
+	margin-right:5%;
+	margin-left:5%;
+}
+
+body {
+	background-color:#F9F9F9;
+}
+
+main {
+	padding-right:2.5%;
+	padding-left:2.5%;
+}
